@@ -1,3 +1,4 @@
+Kittu@1216
 # Salesforce Senior Coding Challenge
 
 We appreciate you taking the time to participate and submit a coding challenge! 🥳
@@ -38,3 +39,16 @@ In the next step we would like you to implement a simple Invocable Apex Action t
 Finishing these tasks should take about 2-3 hours, but we are all about **'quality > speed'**, so it's better to deliver a clean MVP and leave some TODOs open.
 
 Try to produce something that is at least minimally functional. Part of the exercise is to see what you prioritize first when you have a limited amount of time. For any unfinished tasks, please do add `TODO` comments to your code with a short explanation. You will be given an opportunity later to go into more detail and explain how you would go about finishing those tasks.
+
+
+
+################################# ReadMe-ShaliniPerneti #################################
+1. Added Picklist value 'Fulfilled' to Status field of Order's Object.
+2. Created invocable Apex class named as 'sendOrderasInput' with Order Id's as input parameters.
+3. Added HTTP callout method and send 'Order Number' and 'Contact email' to external system
+4. Created record-triggered flow named as 'orderStatusUpdate' with Apex action.
+5. Received '404 not found' error when flow run in my local org.
+6. Created test classes 'sendOrderasInputTest' and code average is > 80%.
+7. Path of my components is ShaliniPerneti >> force-app >> main >> default 
+
+
